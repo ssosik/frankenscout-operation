@@ -49,8 +49,7 @@ short game over song. Start a new game.
 If the player successfully removes the bone, trigger a separate switch to play
 the win game song and have all the LEDs light up. Start a new game.
 
-
-https://github.com/ssosik/frankenscout-operation/assets/11655703/b8dc83f4-11ef-4684-a59f-e8ad3b7031e3
+https://github.com/ssosik/frankenscout-operation/assets/11655703/48587010-1746-46a9-8444-a14359af3e6e
 
 
 ## Table
