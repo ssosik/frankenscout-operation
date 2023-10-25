@@ -91,6 +91,19 @@ One of the other parents in our Den did the 3D printings of the bones, so I
 don't have the data files or other parameters for the prints. thingiverse.com
 has so much to choose from.
 
+## Electronics
+
+The heart of this is an Arduino Nano.
+
+It uses the Serial pins to talk to the MP3 Trigger.
+
+The Nano only supports interrups on pins 2 and 3, so these are what I used for
+the triggers for game faults and game wins.
+
+I went overboard and used this as an opportunity to learn a bit about PCB
+design, so I learned how to use Kicad to design the PCB and then ordered pieces
+through PCBWay.
+
 ## Sounds
 
 For music, I was able to find a good amount of stuff on the freemusicarchive.org
@@ -106,12 +119,16 @@ reciting the words of the Scout Law. I used Audacity to cut up the audio files.
 ## Useful Links
 
 https://www.instructables.com/Multiplexing-with-Arduino-and-the-74HC595/
+https://docs.arduino.cc/tutorials/nano-every/uart
+https://learn.sparkfun.com/tutorials/mp3-trigger-hookup-guide-v24
 
 ## Improvements
 
 - Use a magnetic switch (Normally Open) and magnets in the bones to trigger the
 win events
 - Normalize the sound files better to make the sound of our Scouts louder
+- I'd like to add some kind of buzzer or solenoid popper to the game to give it
+a bit more physical feedback
 
 ## Bugs
 
