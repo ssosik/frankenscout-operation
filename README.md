@@ -116,11 +116,20 @@ skipped during playback without convertion.
 I just used my Mac to record the voices of our Scouts making spooky sounds and
 reciting the words of the Scout Law. I used Audacity to cut up the audio files.
 
+In the code I have a few separate start and stop indexes for the theme songs,
+warn sounds, win songs, and lose songs. I use `random` to pick a random file in
+the range between these indexes.
+
+The MP3 Trigger use a micro SD card to for loading the MP3 files. These files
+have a numeric prefix XXX that is used to index each file; i.e. a file named
+`012-some-file.mp3` will be played when `t12` is sent over the Serial port to
+the MP3 Trigger.
+
 ## Useful Links
 
-https://www.instructables.com/Multiplexing-with-Arduino-and-the-74HC595/
-https://docs.arduino.cc/tutorials/nano-every/uart
-https://learn.sparkfun.com/tutorials/mp3-trigger-hookup-guide-v24
+- https://www.instructables.com/Multiplexing-with-Arduino-and-the-74HC595/
+- https://docs.arduino.cc/tutorials/nano-every/uart
+- https://learn.sparkfun.com/tutorials/mp3-trigger-hookup-guide-v24
 
 ## Improvements
 
@@ -139,3 +148,4 @@ is. I'm using Nano pins 2 and 3 in INPUT_PULLUP mode. If you have any ideas
 please let me know!
 - I'm not a C++ programmer, and coding in an event loop is tricky. There were
 many bugs, and there are probably still a few.
+- I ran out of time and wan't able to get the nose LEDs working properly. TODO
