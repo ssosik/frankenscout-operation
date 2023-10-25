@@ -140,6 +140,10 @@ have a numeric prefix XXX that is used to index each file; i.e. a file named
 `012-some-file.mp3` will be played when `t12` is sent over the Serial port to
 the MP3 Trigger.
 
+https://github.com/ssosik/frankenscout-operation/assets/11655703/ff72e206-2da6-4ab1-b68c-d1a4c78e1dd9
+
+
+
 ## Useful Links
 
 - https://www.instructables.com/Multiplexing-with-Arduino-and-the-74HC595/
